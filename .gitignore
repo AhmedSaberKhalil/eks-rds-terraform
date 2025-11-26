@@ -1,9 +1,6 @@
-# Terraform local files
-.terraform/                 # ignore the Terraform working directory
-.terraform.lock.hcl         # ignore lock file (optional if you want reproducible builds)
-
-# Other common Terraform ignores (optional)
-*.tfstate                   # ignore state files
-*.tfstate.backup            # ignore backup state files
-crash.log                   # ignore crash logs
+.terraform/      
+.terraform.lock.hcl 
+*.tfstate             
+*.tfstate.backup    
+crash.log          
 
